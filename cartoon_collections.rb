@@ -17,5 +17,7 @@ end
 
 def find_the_cheese(src)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  src.each_with_index do |word, idx|
+    
+  end
 end
