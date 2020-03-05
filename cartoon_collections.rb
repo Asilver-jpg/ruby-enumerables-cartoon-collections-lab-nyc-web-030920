@@ -15,12 +15,12 @@ def long_planeteer_calls(src)
   return false
 end
 
-def find_the_cheese(src)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  src.each_with_index do |word, idx|
-    if cheese_types.include?(word)
-      return src[idx]
-    end
-  end
-  return nil
-end
+#def find_the_cheese(src)
+ # cheese_types = ["cheddar", "gouda", "camembert"]
+  #src.each_with_index do |word, idx|
+   # if cheese_types.include?(word)
+    #  return src[idx]
+    #end
+  #end
+  #return nil
+#end
